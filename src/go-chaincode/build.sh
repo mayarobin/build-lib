@@ -22,4 +22,5 @@ mv "${FABRIC_SRC_DIR}" "${GOPATH}/src/github.com/hyperledger/fabric"
 
 # change to the correct path name \ path should be ./chaincode/go/example ??
 echo "######## Building chaincode ########"
+echo "NEW VERSIon"
 go build -v -x ./...
